@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f3f3f3;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+
+.hide-scrollbar {
+  scrollbar-width: thin; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  width: 6px; /* Adjust as needed */
+}
+
+.hide-scrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Adjust as needed */
+}
