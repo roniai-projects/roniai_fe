@@ -101,7 +101,7 @@ function App() {
         <Route element={<Home />} path="/" exact />
         <Route element={<Login />} path="/login" />
         <Route element={<Register />} path="/register" />
-        <Route element={<Pricing />} path="/pricing" />
+        {/* <Route element={<Pricing />} path="/pricing" /> */}
         <Route element={<Admin />} path="/admin" />
 
         {/* catch all non-existing routes */}

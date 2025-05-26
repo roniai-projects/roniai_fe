@@ -41,7 +41,7 @@ export default function Navbar() {
               Home
             </a>
           </li>
-          <li>
+{/*           <li>
             <button
               className={`py-3 px-4 hover:opacity-80`}
               onClick={() => {
@@ -50,7 +50,7 @@ export default function Navbar() {
             >
               Pricing
             </button>
-          </li>
+          </li> */}
 
           <li>
             <a
